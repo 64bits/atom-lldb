@@ -1,0 +1,10 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Create a fake break",
+        "command": "atom-lldb:create-breakpoint"
+      }
+    ]
+  }
+}

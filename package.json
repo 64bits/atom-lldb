@@ -1,0 +1,13 @@
+{
+  "name": "atom-lldb",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "description": "LLDB support for Atom",
+  "engines": {
+    "atom": "*"
+  },
+  "dependencies": {
+    "jquery": "^2.1.4"
+  },
+  "license": "MIT"
+}
