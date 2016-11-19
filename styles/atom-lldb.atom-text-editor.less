@@ -1,5 +1,21 @@
 @import "ui-variables";
 
+lldb-panel {
+  display: block;
+  background: black;
+  color: #eee;
+  max-height: 150px;
+  white-space: pre;
+  overflow: scroll;
+
+  textarea#lldb-input {
+    background: black;
+    border: none;
+    resize: none;
+    width: 100%;
+  }
+}
+
 .atom-lldb-breakpoint::before {
   content: '';
   width: 10%;
